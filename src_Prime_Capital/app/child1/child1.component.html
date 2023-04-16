@@ -1,0 +1,7 @@
+
+<div *ngIf="result; else elseBlock">
+    <b>The {{num}} Number is Prime</b>
+</div>
+<ng-template #elseBlock>
+    <b>The {{num}} Number is Not Prime</b>
+</ng-template>
